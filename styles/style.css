@@ -1,0 +1,128 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+   background-color: #fff;
+}
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+.google {
+  display: block;
+  padding: 150px 150px 20px 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apps {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signin-button {
+  background-color: #4285f4;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 3px;
+  height: 30px;
+  min-width: 80px;
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+div input {
+  display: flex;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  width: 580px;
+  height: 42px;
+  border-radius: 21px;
+  border-width: 1px;
+  border-color: #797979;
+  background-image: url(../images/search.png), url(../images/mic.png);
+  background-size: 22px, 22px;
+  background-position: left+10px center, right+10px center;
+  background-repeat: no-repeat, no-repeat;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+
+.search-button {
+  background-color: #f3f3f3;
+  border:rgb(255, 255, 255);
+  border-radius: 4px;
+  height: 36px;
+  min-width: 130px;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  }
+
+div.button
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ul.upper {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1pt;
+}
+
+ul.lower {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-color: #797979;
+  border-style: 1px solid;
+}
+.search-button:hover {
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+}
